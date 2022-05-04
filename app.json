@@ -1,0 +1,36 @@
+{
+  "name": "HEROKU RCLONE SERVE INDEX",
+  "description": "A rclone serve index using Docker",
+  "repository": "https://github.com/rahim56/index",
+  "logo": "https://avatars.githubusercontent.com/u/71500526?s",
+  "keywords": ["nginx", "fileindex", "mega", "onedrive", "remote-index", "anyremote", "anycloud", "cloud-downloader", "rclone-backdoor", "index-backdoor", "rclone", "index"],  
+    
+    "env": {
+     "CONFIG_IN_URL": {
+      "description": "Paste your url below." ,
+      "value": "https://gist.githu../raw/rclone.conf"
+    },
+     "template": {
+      "description": "Index template  (dark / light)",
+      "value": "dark"
+    },
+     "indexauthentication": {
+      "description": "Index authentication (true / false)",
+      "value": "true"
+    },
+     "INDEXusername": {
+      "description": "Index username (optional)",
+      "value": "11111"
+    },
+     "INDEXpassword": {
+      "description": "Index Password (optional)",
+      "value": "11111"
+
+    }
+
+
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
